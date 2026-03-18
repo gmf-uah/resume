@@ -1,0 +1,127 @@
+{
+    // LaTeX Workshop Configuration
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "LuaLaTeX",
+            "tools": [
+                "lualatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX ➞ BibTeX ➞ XeLaTeX×2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdfLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    
+    // Set LuaLaTeX as default to match your TeXworks workflow
+    "latex-workshop.latex.recipe.default": "LuaLaTeX",
+    
+    // Enable auto-build when saving
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    
+    // PDF viewer settings
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.zoom": "page-fit",
+    
+    // Clean auxiliary files
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.fdb_latexmk",
+        "*.fls",
+        "*.log",
+        "*.out",
+        "*.synctex.gz",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.lof",
+        "*.lot",
+        "*.nav",
+        "*.snm",
+        "*.vrb"
+    ],
+    
+    // Enable IntelliSense and syntax highlighting
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.hover.preview.enabled": true,
+    "latex-workshop.latex.lint.onEdit": true,
+    
+    // Enable forward/inverse search
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    
+    // Notification settings - disable intrusive popup notifications
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false, 
+    "latex-workshop.showContextMenu": true,
+    
+    // Keep errors in output panel only (less intrusive)
+    "latex-workshop.progress.enabled": true,
+    "latex-workshop.progress.location": "Status Bar",
+    
+    // Reduce notification frequency
+    "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false
+}

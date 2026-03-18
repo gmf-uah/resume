@@ -1,0 +1,138 @@
+%-------------------------
+% Resume in Latex
+% Author : Grant Fink
+% Based on : https://github.com/jakeryang/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+% Import custom resume style definitions
+\usepackage{resume_style}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Grant Fink} \\ \vspace{10pt} \small
+    \faMapMarker* \hspace{2pt}\texttt{Huntsville, Alabama} \hspace{1pt} $|$ \hspace{1pt}
+    \faEnvelope \hspace{2pt} \texttt{grant.m.fink\hspace{0.3em}@\hspace{0.3em}gmail.com} \hspace{1pt} $|$ \hspace{1pt}
+    \faPhone* \hspace{1pt} \texttt{(985)\hspace{0.3em}789\hspace{0.1em}-\hspace{0.1em}7411} \hspace{1pt} $|$ \hspace{1pt}
+    \faLinkedin \hspace{2pt} {\href{https://www.linkedin.com/in/grant-m-fink/}{\myuline {grant-m-fink}}} \hspace{1pt} $|$ \hspace{1pt}
+    \faGithub \hspace{2pt} {\href{https://github.com/gmf-uah}{\myuline {gmf-uah}}}
+    %\faDiscord \hspace{2pt} \texttt{g078778} \hspace{1pt} $|$ \hspace{1pt}
+    \\ \vspace{-3pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+	\resumeSubHeadingListStart
+	\resumeSubheadingWithMinor
+      {University of Alabama in Huntsville}{Aug 2024 -- present}
+      {Bachelor of Science, Computer Science}{}{Minor in Mathematics}%{Huntsville, AL}
+		\vspace{-4pt}
+        \begin{gpabox}
+        \textbf{GPA: 3.954}
+        \end{gpabox}
+		\vspace{2pt}
+
+		\textbf{Courses}
+		\vspace{-8pt}
+		\raggedcolumns
+		\begin{multicols}{2}
+		\begin{itemize}[itemsep=4pt, parsep=0pt, topsep=0pt]
+		    \item Computer Architecture with ARM Assembly
+		    \item Data Structures with C++
+		    \item Analysis of Algorithms
+		    \item Calculus
+		    \item Linear Algebra
+		    \item Probability and Statistics
+			\columnbreak
+		    \item Unix/Linux Programming with C and Perl
+		    \item Computer Graphics with OpenGL
+		    \item Object-Oriented Programming with Java
+		    \item Python, C++ Programming
+		    \item Technical Writing
+		    \item Discrete Mathematical Structures
+		\end{itemize}
+		\end{multicols}
+    	%\resumeItem{\textbf{Courses}: , , , , , }
+     %\resumeItem{\textbf{Research}: MIT Graybiel Lab (published author), MIT Media Lab (analyzed urban microbe spread)}
+        %\resumeItemListEnd
+		%\vspace{-8pt}
+	\resumeSubHeadingListEnd
+
+%
+%-----------PROJECTS-----------
+
+\section{PROJECTS}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{Have-A-Byte}}{Mar 2026}
+      \resumeItemListStart
+        \resumeItem{Wrote an \href{https://github.com/gmf-uah/CS321-Semester-Project}{\myuline{\textbf{ARM assembly file}}} to simulate the operation of a vending machine}
+        \resumeItem{Completed over the course of two days and finished with ASCII art and terminal eyecandy}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{EVMapper}}{Sep -- Dec 2025}
+      \resumeItemListStart
+        \resumeItem{Led a group of 4 students to create a \href{https://github.com/gmf-uah/CS321-Semester-Project}{\myuline{\textbf{geographic elevation mapper}}} in Java}
+        \resumeItem{Visualizes bathymetric GeoTIFF files as 2D maps, allowing the user to define the current sea level}
+      \resumeItemListEnd
+      
+    \resumeProjectHeading
+      {\textbf{LaTeX Guide}}{Jul 2025}
+      \resumeItemListStart
+          \resumeItem{Composed a detailed \href{https://github.com/gmf-uah/LaTeX-User-Help-Guide}{\myuline{\textbf{LaTeX guide}}} covering essential usage in Microsoft Word's Equation Editor}
+      \resumeItemListEnd
+      
+    \resumeProjectHeading
+      {\textbf{Transform Window}}{Jun 2025}
+      \resumeItemListStart
+        \resumeItem{Developed an \href{https://github.com/gmf-uah/transform-window}{\myuline{\textbf{AutoHotkey script}}} for Windows users to move and resize panes using keyboard shortcuts}
+        \resumeItem{Authored a technical guide documenting complete functionality}
+      \resumeItemListEnd
+      
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\skillssection{SKILLS}
+
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0in, label={}]
+  \item[] {\textbf{Programming and Markup Languages}}
+    \begin{itemize}
+      \item \textbf{C} and \textbf{C++} for \href{https://github.com/gmf-uah/git-gud/blob/main/Grant/390/p3/fink_cs390program3.c}{\myuline{programs}} and quick tests
+      \item \textbf{Python} and \textbf{Lua} for automation and visualization
+      \item \textbf{JavaScript, HTML, CSS} for \href{https://gmf-uah.github.io/BabylonJS-Demo/}{\myuline{web projects}}
+      \item \textbf{LaTeX} for note-taking, SymboLab, Desmos
+    \end{itemize}
+  \item[] {\textbf{Developer Tools and Environments}}
+    \begin{itemize}
+      \item WSL, Ubuntu, Debian, NixOS
+      \item Terminal and shell usage (Bash, PowerShell, GDB)
+      \item Git and GitHub
+      \item Vim and Neovim
+      \item Visual Studio Code
+      \item Desmos (\href{https://www.desmos.com/calculator/zv6qvlqto3}{\myuline{2D}} and \href{https://www.desmos.com/3d/7tpzcgftzd}{\myuline{3D}}), SymboLab
+      \item Paint.NET
+    \end{itemize}
+  \item[] {\textbf{Other Skills}}
+    \begin{itemize}
+      \item Technical writing and documentation
+      \item Team collaboration and leadership
+      \item Prototyping, debugging, troubleshooting
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+
+%-------------------------------------------
+\end{document}
