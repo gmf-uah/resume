@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.3.14)  18 MAR 2026 02:20
+This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.3.14)  18 MAR 2026 02:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume_1
@@ -1535,12 +1535,12 @@ Package rerunfilecheck Info: File `resume_1.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  36134 strings out of 476081
- 195338,1373583 words of node,token memory allocated
+ 195340,1373583 words of node,token memory allocated
  1522 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 2 glue, 20 kern, 1 glyph, 111 attribute, 66 glue_
 spec, 93 attribute_list, 2 write, 24 pdf_literal, 24 pdf_colorstack nodes
-   avail lists: 2:4523,3:1048,4:424,5:1924,6:175,7:16907,8:2,9:2945,10:20,11:134
-4
+   avail lists: 2:4523,3:1048,4:424,5:1933,6:175,7:16997,8:2,9:2945,10:20,11:135
+6
  57705 multiletter control sequences out of 65536+600000
  73 fonts using 6793495 bytes
  131i,11n,127p,438b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1555,7 +1555,7 @@ nts/cm/cmsy6.pfb><C:/Users/grant/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/tex-gyre/qhvb.pfb><C:/Users/grant/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/tex-gyre/qhvr.pfb><C:/Users/grant/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/tex-gyre/qhvri.pfb>
-Output written on resume_1.pdf (1 page, 110496 bytes).
+Output written on resume_1.pdf (1 page, 110627 bytes).
 
 PDF statistics: 114 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 1048576)
