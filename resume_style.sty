@@ -121,10 +121,9 @@
 
 %-------------------------
 % Custom resume commands
+% Tighter bullet spacing
 \newcommand{\resumeItem}[1]{
-  \item{
-    {#1 \vspace{-1pt}}
-  }
+  \item{#1\vspace{0pt}}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -151,22 +150,24 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+% Tighter project spacing
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
       #1 & {\color{dark-grey}\small #2} \\
-    \end{tabular*}\vspace{-4pt}
+    \end{tabular*}\vspace{-2pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{2pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 % CHANGED default leftmargin  0.15 in
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+% Tighter item list spacing
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0pt, parsep=0pt, topsep=0pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 % Set text color
 \color{text-grey}
