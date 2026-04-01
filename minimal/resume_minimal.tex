@@ -1,0 +1,103 @@
+% Minimal Resume for Grant Fink
+% This file is intentionally simple for AI parsing
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
+\usepackage{tikz}
+% Dotted underline macro
+\newcommand{\dotteduline}[1]{%
+    \tikz[baseline=(text.base)] {\node[inner sep=0,outer sep=0] (text) {#1};
+        \draw[black, dash pattern=on 0.4pt off 0.8pt, line width=0.4pt, yshift=1.2pt] (text.south west) -- (text.south east);}}
+\usepackage{enumitem}
+\setlist{nosep}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\pagestyle{empty}
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Grant Fink}} \\
+    \vspace{0.5em}
+    \textbf{Location:} Huntsville, Alabama \quad \textbf{Phone:} (985) 789-7411 \\
+    \textbf{Email:} grant.m.fink@gmail.com \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/grant-m-fink/}{\dotteduline{grant-m-fink}} \quad
+    \textbf{GitHub:} \href{https://github.com/gmf-uah}{\dotteduline{gmf-uah}}
+\end{center}
+
+\section*{Education}
+\vspace*{-0.7em}
+\noindent
+\textbf{University of Alabama in Huntsville} \hfill \textbf{GPA: 3.954} \\
+Bachelor of Science, Computer Science (Minor in Mathematics) \\
+Aug 2024 -- present \hfill Expected Graduation 2027
+%
+% \textbf{Courses:}
+% \begin{itemize}
+%     \item Computer Architecture with ARM Assembly
+%     \item Data Structures with C++
+%     \item Analysis of Algorithms
+%     \item Calculus
+%     \item Linear Algebra
+%     \item Probability and Statistics
+%     \item Unix/Linux Programming with C and Perl
+%     \item Computer Graphics with OpenGL
+%     \item Object-Oriented Programming with Java
+%     \item Python, C++ Programming
+%     \item Technical Writing
+%     \item Discrete Mathematical Structures
+% \end{itemize}
+
+
+\section*{Projects}
+\vspace*{-0.7em}
+\noindent\textbf{ACM Hackathon} (Mar 2026) \\
+- Collaborated with a team to create \href{https://www.linkedin.com/posts/activity-7441746349508710400-wyGv}{\dotteduline{PARK}}, a project to monitor parking availability across UAH \\
+- Awarded Most Valuable Player, \& placed 3rd for project impact, execution and presentation
+\vspace{0.3em} \\
+\noindent\textbf{Have-A-Byte} (Mar 2026) \\
+- Wrote an \href{https://github.com/gmf-uah/CS-413-Lab-3-Vending-Machine}{\dotteduline{ARM assembly file}} to simulate the operation of a vending machine \\
+- Completed over the course of two days and finished with ASCII art and terminal eyecandy
+\vspace{0.3em} \\
+\noindent\textbf{EVMapper} (Sep -- Dec 2025) \\
+- Led a group of 4 students to create a \href{https://github.com/gmf-uah/CS321-Semester-Project}{\dotteduline{geographic elevation mapper}} in Java \\
+- Visualizes bathymetric GeoTIFF files as 2D maps, allowing the user to define the current sea level
+\vspace{0.3em} \\
+\noindent\textbf{LaTeX Guide} (Jul 2025) \\
+- Composed a detailed \href{https://github.com/gmf-uah/LaTeX-User-Help-Guide}{\dotteduline{LaTeX guide}} covering essential usage in Microsoft Word's Equation Editor
+\vspace{0.3em} \\
+\noindent\textbf{Transform Window} (Jun 2025) \\
+- Developed an \href{https://github.com/gmf-uah/transform-window}{\dotteduline{AutoHotkey script}} for Windows users to move and resize panes using keyboard shortcuts \\
+- Authored a technical guide documenting complete functionality
+
+
+\section*{Skills}
+\vspace*{-0.7em}
+\noindent\textbf{Programming and Markup Languages:}
+\begin{itemize}
+    \item C and C++ for \href{https://github.com/gmf-uah/git-gud/blob/main/Grant/390/p3/fink_cs390program3.c}{\dotteduline{programs}} and quick tests
+    \item Python and Lua for automation and visualization
+    \item JavaScript, HTML, CSS for \href{https://gmf-uah.github.io/BabylonJS-Demo/}{\dotteduline{web projects}} 
+    \item LaTeX for note-taking, SymboLab, Desmos
+\end{itemize}
+\vspace{0.2em}
+\noindent\textbf{Developer Tools and Environments:}
+\begin{itemize}
+\item WSL, Ubuntu, Debian, NixOS
+\item Terminal and shell usage (Bash, PowerShell, GDB)
+\item Git and GitHub
+\item Vim and Neovim
+\item Visual Studio Code
+    \item Desmos (\href{https://www.desmos.com/calculator/zv6qvlqto3}{\dotteduline{2D}}, \href{https://www.desmos.com/3d/whxeqamhix}{\dotteduline{3D}}), SymboLab
+\item Paint.NET
+\end{itemize}
+\vspace{0.2em}
+\noindent\textbf{Other Skills:}
+\begin{itemize}
+\item Technical writing and documentation
+\item Team collaboration and leadership
+\item Prototyping, debugging, troubleshooting
+\end{itemize}
+
+\end{document}
