@@ -8,7 +8,8 @@
 % Dotted underline macro
 \newcommand{\dotteduline}[1]{%
     \tikz[baseline=(text.base)] {\node[inner sep=0,outer sep=0] (text) {#1};
-        \draw[black, dash pattern=on 0.4pt off 0.8pt, line width=0.4pt, yshift=1.2pt] (text.south west) -- (text.south east);}}
+        \draw[black, dash pattern=on 0.4pt off 0.8pt, line width=0.4pt] 
+        ([yshift=-1.5pt]text.base west) -- ([yshift=-1.5pt]text.base east);}}
 \usepackage{enumitem}
 \setlist{nosep}
 \renewcommand{\familydefault}{\sfdefault}
@@ -29,9 +30,9 @@
 \section*{Education}
 \vspace*{-0.7em}
 \noindent
-\textbf{University of Alabama in Huntsville} \hfill \textbf{GPA: 3.954} \\
+\textbf{University of Alabama in Huntsville} \hfill \textbf{GPA: 3.961} \\
 Bachelor of Science, Computer Science (Minor in Mathematics) \\
-Aug 2024 -- present \hfill Expected Graduation 2027
+Aug 2024 -- present \hfill Expected Graduation Fall 2026
 %
 % \textbf{Courses:}
 % \begin{itemize}
@@ -52,25 +53,43 @@ Aug 2024 -- present \hfill Expected Graduation 2027
 
 \section*{Projects}
 \vspace*{-0.7em}
-\noindent\textbf{ACM Hackathon} (Mar 2026) \\
-- Collaborated with a team to create \href{https://www.linkedin.com/posts/activity-7441746349508710400-wyGv}{\dotteduline{PARK}}, a project to monitor parking availability across UAH \\
-- Awarded Most Valuable Player, \& placed 3rd for project impact, execution and presentation
-\vspace{0.3em} \\
-\noindent\textbf{Have-A-Byte} (Mar 2026) \\
-- Wrote an \href{https://github.com/gmf-uah/CS-413-Lab-3-Vending-Machine}{\dotteduline{ARM assembly file}} to simulate the operation of a vending machine \\
-- Completed over the course of two days and finished with ASCII art and terminal eyecandy
-\vspace{0.3em} \\
-\noindent\textbf{EVMapper} (Sep -- Dec 2025) \\
-- Led a group of 4 students to create a \href{https://github.com/gmf-uah/CS321-Semester-Project}{\dotteduline{geographic elevation mapper}} in Java \\
-- Visualizes bathymetric GeoTIFF files as 2D maps, allowing the user to define the current sea level
-\vspace{0.3em} \\
-\noindent\textbf{LaTeX Guide} (Jul 2025) \\
-- Composed a detailed \href{https://github.com/gmf-uah/LaTeX-User-Help-Guide}{\dotteduline{LaTeX guide}} covering essential usage in Microsoft Word's Equation Editor
-\vspace{0.3em} \\
-\noindent\textbf{Transform Window} (Jun 2025) \\
-- Developed an \href{https://github.com/gmf-uah/transform-window}{\dotteduline{AutoHotkey script}} for Windows users to move and resize panes using keyboard shortcuts \\
-- Authored a technical guide documenting complete functionality
-
+\noindent\textbf{UAH ACM Event Manager} (Jun 2026 -- present)
+\begin{itemize}
+\item Coordinated and oversaw events for the UAH chapter of Association for Computing Machinery
+\end{itemize}
+\vspace{0.3em}
+\noindent\textbf{Handshake AI -- Project Escher} (May 2026)
+\begin{itemize}
+\item Crafted adversarial prompts with chart images to elicit incorrect responses from AI agents
+\item Contributed human-reviewed tasks to a pipeline for training AI on chart and graph comprehension
+\end{itemize}
+\vspace{0.3em}
+\noindent\textbf{ACM Hackathon} (Mar 2026)
+\begin{itemize}
+\item Collaborated with a team to create \href{https://www.linkedin.com/posts/activity-7441746349508710400-wyGv}{\dotteduline{PARK}}, a project to monitor parking availability across UAH
+\item Awarded Most Valuable Player, \& placed 3rd for project impact, execution and presentation
+\end{itemize}
+% \vspace{0.3em} \\
+% \noindent\textbf{Have-A-Byte} (Mar 2026) \\
+% - Wrote an \href{https://github.com/gmf-uah/CS-413-Lab-3-Vending-Machine}{\dotteduline{ARM assembly file}} to simulate the operation of a vending machine \\
+% - Completed over the course of two days and finished with ASCII art and terminal eyecandy
+\vspace{0.3em}
+\noindent\textbf{EVMapper} (Sep -- Dec 2025)
+\begin{itemize}
+\item Led a group of 4 students to create a \href{https://github.com/gmf-uah/CS321-Semester-Project}{\dotteduline{geographic elevation mapper}} in Java
+\item Visualizes bathymetry data, allowing the user to change the current sea level and observe effects
+\end{itemize}
+\vspace{0.3em}
+\noindent\textbf{LaTeX Guide} (Jul 2025)
+\begin{itemize}
+\item Composed a detailed \href{https://github.com/gmf-uah/LaTeX-User-Help-Guide}{\dotteduline{LaTeX guide}} covering essential usage in Microsoft Word's Equation Editor
+\end{itemize}
+\vspace{0.3em}
+\noindent\textbf{Transform Window} (Jun 2025)
+\begin{itemize}
+\item Developed an \href{https://github.com/gmf-uah/transform-window}{\dotteduline{AutoHotkey script}} for Windows users to move, resize panes with keyboard shortcuts
+\item Authored a technical guide documenting complete functionality
+\end{itemize}
 
 \section*{Skills}
 \vspace*{-0.7em}
@@ -84,20 +103,18 @@ Aug 2024 -- present \hfill Expected Graduation 2027
 \vspace{0.2em}
 \noindent\textbf{Developer Tools and Environments:}
 \begin{itemize}
-\item WSL, Ubuntu, Debian, NixOS
-\item Terminal and shell usage (Bash, PowerShell, GDB)
-\item Git and GitHub
-\item Vim and Neovim
-\item Visual Studio Code
+    \item Linux: Ubuntu, Debian, NixOS, WSL
+    \item Terminal and shell usage (Bash, PowerShell, GDB)
+    \item Git and GitHub, Vim and Neovim, Visual Studio Code
     \item Desmos (\href{https://www.desmos.com/calculator/zv6qvlqto3}{\dotteduline{2D}}, \href{https://www.desmos.com/3d/whxeqamhix}{\dotteduline{3D}}), SymboLab
-\item Paint.NET
+    \item Image, audio, and video editing software (Paint.NET, GIMP, Audacity, DaVinci Resolve)
 \end{itemize}
 \vspace{0.2em}
 \noindent\textbf{Other Skills:}
 \begin{itemize}
-\item Technical writing and documentation
-\item Team collaboration and leadership
-\item Prototyping, debugging, troubleshooting
+    \item Technical writing and documentation
+    \item Team collaboration and leadership
+    \item Prototyping, debugging, troubleshooting
 \end{itemize}
 
 \end{document}
