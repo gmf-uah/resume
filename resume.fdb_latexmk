@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1789109262.96839 "/home/grant/Projects/resume/resume.tex" "resume.pdf" "resume" 1789109263.65938 0
-  "/home/grant/Projects/resume/resume.tex" 1789109262.87279 4284 6007ac076dba54d8ae1b259149e2cdcf ""
+["pdflatex"] 1789110424.83295 "/home/grant/Projects/resume/resume.tex" "resume.pdf" "resume" 1789110425.53222 0
+  "/home/grant/Projects/resume/resume.tex" 1789110424.74165 4279 2ed28c1f522ae674e0d8186f4aabc634 ""
   "/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/tex/generic/bigintcalc/bigintcalc.sty" 1 40635 c40361e206be584d448876bba8a64a3b ""
@@ -108,9 +108,9 @@
   "/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/tex/latex/xcolor/xcolor.sty" 1 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/nix/store/wvffnd42gxkirpl170w4ipsldgawx66v-texlive-2025-r78234-final-env/share/texmf-var/web2c/texmf.cnf" 1 44263 5c7ad0160387d8e776dc1fd1bcb7e435 ""
   "/nix/store/wvffnd42gxkirpl170w4ipsldgawx66v-texlive-2025-r78234-final-env/share/texmf-var/web2c/xetex/xelatex.fmt" 1 5949241 0ca69421f54f0356b9a2e7a92a7b8f11 ""
-  "resume.aux" 1789109263.49358 128 852fc3e86949e4a73cd552c13992dc37 "pdflatex"
-  "resume.out" 1789109263.4741 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1789109262.87279 4284 6007ac076dba54d8ae1b259149e2cdcf ""
+  "resume.aux" 1789110425.36259 128 852fc3e86949e4a73cd552c13992dc37 "pdflatex"
+  "resume.out" 1789110425.33373 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1789110424.74165 4279 2ed28c1f522ae674e0d8186f4aabc634 ""
   (generated)
   "resume.aux"
   "resume.log"
