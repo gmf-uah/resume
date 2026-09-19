@@ -4,3 +4,5 @@
 *.synctex.gz
 *.log
 *.code-workspace
+*.fls
+*.fdb_latexmk
